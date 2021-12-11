@@ -1,0 +1,30 @@
+:root {
+  --main-color: #3f7ef5;
+  --main-color-light: rgba(63, 126, 245, 0.3);
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.app-logo {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.button-main {
+  width: 250px;
+  height: 50px;
+  background-color: var(--main-color-light);
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+h1 {
+  margin: 0 auto;
+}
